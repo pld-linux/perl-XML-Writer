@@ -2,7 +2,7 @@
 Summary:	XML-Writer perl module
 Summary(pl):	Modu³ perla XML-Writer
 Name:		perl-XML-Writer
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/XML/Writer
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
