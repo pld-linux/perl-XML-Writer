@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Writer
-Summary:	XML-Writer perl module
-Summary(pl):	Modu³ perla XML-Writer
+Summary:	XML::Writer perl module
+Summary(pl):	Modu³ perla XML::Writer
 Name:		perl-XML-Writer
 Version:	0.4
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Writer - module for writing XML documents.
+XML::Writer - module for writing XML documents.
 
 %description -l pl
-XML-Writer - modu³ do pisania dokumentów XML.
+XML::Writer - modu³ do pisania dokumentów XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
