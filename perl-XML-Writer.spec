@@ -8,13 +8,13 @@
 Summary:	XML::Writer perl module
 Summary(pl):	Modu³ perla XML::Writer
 Name:		perl-XML-Writer
-Version:	0.500
-Release:	2
+Version:	0.510
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7e92946e0364ab4347ade9325a7eeb8b
+# Source0-md5:	0210c47041b52e039db7b86b5217f066
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
