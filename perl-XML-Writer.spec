@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Writer
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML-Writer perl module
 Summary(pl):	Modu³ perla XML-Writer
 Name:		perl-XML-Writer
 Version:	0.4
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +21,7 @@ XML-Writer - module for writing XML documents.
 XML-Writer - modu³ do pisania dokumentów XML.
 
 %prep
-%setup -q -n XML-Writer-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
