@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Writer
+%define		pdir	XML
+%define		pnam	Writer
 Summary:	XML::Writer perl module
 Summary(pl):	Modu³ perla XML::Writer
 Name:		perl-XML-Writer
