@@ -3,7 +3,7 @@ Summary:	XML-Writer perl module
 Summary(pl):	Modu³ perla XML-Writer
 Name:		perl-XML-Writer
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
