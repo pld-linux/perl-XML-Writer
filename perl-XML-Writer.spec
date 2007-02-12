@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Writer
 Summary:	XML::Writer perl module
-Summary(pl):	Modu≥ perla XML::Writer
+Summary(pl.UTF-8):   Modu≈Ç perla XML::Writer
 Name:		perl-XML-Writer
 Version:	0.601
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Writer - module for writing XML documents.
 
-%description -l pl
-XML::Writer - modu≥ do pisania dokumentÛw XML.
+%description -l pl.UTF-8
+XML::Writer - modu≈Ç do pisania dokument√≥w XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
