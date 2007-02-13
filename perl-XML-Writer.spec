@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Writer
 Summary:	XML::Writer perl module
-Summary(pl.UTF-8):   Moduł perla XML::Writer
+Summary(pl.UTF-8):	Moduł perla XML::Writer
 Name:		perl-XML-Writer
 Version:	0.601
 Release:	1
